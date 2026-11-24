@@ -12,6 +12,13 @@ The problem's quiet gift is the contract that each key's timestamps arrive stric
 
 **Complexity:** Set amortized O(1); Get O(log h) for that key's history length.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
